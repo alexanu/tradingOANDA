@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8226797-bbf2-44ea-b0c8-5cb140978d06" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/_$m_test_database_optimize_mysql_2.coverage" NAME="m_test_database_optimize_mysql_2 Coverage Results" MODIFIED="1548281120604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_database_parallel__1_.coverage" NAME="m_test_database_parallel (1) Coverage Results" MODIFIED="1548592210054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase_play_with_logging2.coverage" NAME="createDatabase_play_with_logging2 Coverage Results" MODIFIED="1548977612094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/_$load_create_copy_fill__1_.coverage" NAME="load_create_copy_fill (1) Coverage Results" MODIFIED="1549165232271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scripts" />
+    <SUITE FILE_PATH="coverage/_$m_test_database_optimize_mysql_M5_M5_2.coverage" NAME="m_test_database_optimize_mysql_M5_M5_2 Coverage Results" MODIFIED="1549210055732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_S5.coverage" NAME="m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_S5 Coverage Results" MODIFIED="1548467081307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_async_v20.coverage" NAME="m_test_async_v20 Coverage Results" MODIFIED="1549081434730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_database_optimize_mysql_M5_M5.coverage" NAME="m_test_database_optimize_mysql_M5_M5 Coverage Results" MODIFIED="1548632881086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tradingOanda$pytest_in_test_async_v20_py.coverage" NAME="pytest in test_async_v20.py Coverage Results" MODIFIED="1549068808957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase2_M52.coverage" NAME="createDatabase2 M52 Coverage Results" MODIFIED="1549058447845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/tradingOanda$database2.coverage" NAME="database2 Coverage Results" MODIFIED="1548566521883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tradingOANDA" />
+    <SUITE FILE_PATH="coverage/_$m_test_database_optimize_mysql.coverage" NAME="m_test_database_optimize_mysql Coverage Results" MODIFIED="1547978235897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5.coverage" NAME="m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5 Coverage Results" MODIFIED="1548506080316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$m_test_database_clone_2.coverage" NAME="m_test_database_clone_2 Coverage Results" MODIFIED="1548279064395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M1.coverage" NAME="m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M1 Coverage Results" MODIFIED="1548635415701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_$m_test_database_optimize_mysql_M5_M5.coverage" NAME="m_test_database_optimize_mysql_M5_M5 Coverage Results" MODIFIED="1548467038776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$m_test_database_optimize_mysql_M1.coverage" NAME="m_test_database_optimize_mysql_M1 Coverage Results" MODIFIED="1548284314825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$db.coverage" NAME="db Coverage Results" MODIFIED="1548545928998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$createTraingingData.coverage" NAME="createTraingingData Coverage Results" MODIFIED="1549216611785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scripts" />
+    <SUITE FILE_PATH="coverage/_$bitmex_driver.coverage" NAME="bitmex_driver Coverage Results" MODIFIED="1548536643586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scripts" />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_database_optimize_mysql_M5_M5_2.coverage" NAME="m_test_database_optimize_mysql_M5_M5_2 Coverage Results" MODIFIED="1548730369098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase_play_with_logging2__1_.coverage" NAME="createDatabase_play_with_logging2 (1) Coverage Results" MODIFIED="1548977996430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/__$createTraingingData.coverage" NAME="createTraingingData Coverage Results" MODIFIED="1549217446395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_S5.coverage" NAME="m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_S5 Coverage Results" MODIFIED="1548557219220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase2__1_.coverage" NAME="createDatabase2 (1) Coverage Results" MODIFIED="1549042646479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/_$m_test_database_parallel_2.coverage" NAME="m_test_database_parallel_2 Coverage Results" MODIFIED="1548235280846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/_$m_test_async_v20.coverage" NAME="m_test_async_v20 Coverage Results" MODIFIED="1549114065282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/_$load_create_copy_fill.coverage" NAME="load_create_copy_fill Coverage Results" MODIFIED="1549209705247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scripts" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase_get_holidays.coverage" NAME="createDatabase_get_holidays Coverage Results" MODIFIED="1548978430357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/_$check_api_methods.coverage" NAME="check_api_methods Coverage Results" MODIFIED="1549170026834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/programme/Trading/oanda/async_v20/bin" />
+    <SUITE FILE_PATH="coverage/tradingOanda$pytest_in_createDatabase_play_with_logging_py.coverage" NAME="pytest in createDatabase_play_with_logging.py Coverage Results" MODIFIED="1548978033803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase2.coverage" NAME="createDatabase2 Coverage Results" MODIFIED="1549027715867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/tradingOanda$play_to_get_holidays_also_contains_local_trading_hours.coverage" NAME="play_to_get_holidays_also_contains_local_trading_hours Coverage Results" MODIFIED="1548978527170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$" />
+    <SUITE FILE_PATH="coverage/_$m_test_database_parallel_2__1_.coverage" NAME="m_test_database_parallel_2 (1) Coverage Results" MODIFIED="1547983726903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase__1_.coverage" NAME="createDatabase Coverage Results" MODIFIED="1548974674647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/_$m_test_database_parallel.coverage" NAME="m_test_database_parallel Coverage Results" MODIFIED="1549211401640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." />
+    <SUITE FILE_PATH="coverage/tradingOanda$m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5.coverage" NAME="m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5 Coverage Results" MODIFIED="1548632094414" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/_$m_test_async_v20__1_.coverage" NAME="m_test_async_v20 (1) Coverage Results" MODIFIED="1549172923335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scripts" />
+    <SUITE FILE_PATH="coverage/_$createDatabase.coverage" NAME="createDatabase Coverage Results" MODIFIED="1548506089552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../scripts" />
+    <SUITE FILE_PATH="coverage/tradingOanda$createDatabase_play_with_logging.coverage" NAME="createDatabase_play_with_logging Coverage Results" MODIFIED="1548978197374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/_$utils.coverage" NAME="utils Coverage Results" MODIFIED="1549127971561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../tradingOANDA/tradingDB" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="388" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Setup Script" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dst_lst</find>
+      <find>fill</find>
+      <find>extend_t</find>
+      <find>dst_</find>
+      <find>'age</find>
+      <find>fillna_one_df</find>
+      <find>dst_l</find>
+      <find>min_t</find>
+      <find>tiled</find>
+      <find>df_ti</find>
+      <find>utils</find>
+      <find>tile_df</find>
+      <find>timed</find>
+      <find>timedelta</find>
+      <find>timede</find>
+      <find>12.3</find>
+      <find>__time</find>
+      <find>fillna_on</find>
+      <find>fillna_o</find>
+      <find>lq(</find>
+      <find>sort</find>
+      <find>calculate in</find>
+      <find>extend</find>
+      <find>drop ro</find>
+      <find>print</find>
+      <find>set_op</find>
+      <find>asty</find>
+      <find>dateti</find>
+      <find>remain</find>
+      <find>.sleep</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>method=enum_upsert_method.TMPTABLE</replace>
+      <replace>enum_upsert_method.MEMORY</replace>
+      <replace>myClass</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/createDatabase_get_holidays.py" />
+        <option value="$USER_HOME$/config/config.ini" />
+        <option value="$USER_HOME$/m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M52.py" />
+        <option value="$USER_HOME$/config/config_M1.ini" />
+        <option value="$USER_HOME$/config/config_M5.ini" />
+        <option value="$USER_HOME$/config/config_M52.ini" />
+        <option value="$USER_HOME$/play_to_get_holidays_also_contains_local_trading_hours.py" />
+        <option value="$USER_HOME$/m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5.py" />
+        <option value="$USER_HOME$/tradingOANDA/database.py" />
+        <option value="$USER_HOME$/createDatabase2.py" />
+        <option value="$USER_HOME$/tradingOANDA/upsert.py" />
+        <option value="$PROJECT_DIR$/tradingOANDA/upsert.py" />
+        <option value="$PROJECT_DIR$/config/config_M5.ini" />
+        <option value="$PROJECT_DIR$/config/config_M52.ini" />
+        <option value="$PROJECT_DIR$/tradingOANDA/database.py" />
+        <option value="$PROJECT_DIR$/scripts/createDatabase2.py" />
+        <option value="$PROJECT_DIR$/scripts/test_async_v20.py" />
+        <option value="$PROJECT_DIR$/scripts/m_test_async_v20.py" />
+        <option value="$PROJECT_DIR$/tradingOANDA/utils.py" />
+        <option value="$PROJECT_DIR$/scripts/load_create_copy_fill.py" />
+        <option value="$PROJECT_DIR$/../tradingOANDA/database.py" />
+        <option value="$PROJECT_DIR$/../tradingOANDA/tradingDB/exceptions.py" />
+        <option value="$PROJECT_DIR$/../scripts/bitmex_driver.py" />
+        <option value="$PROJECT_DIR$/../db.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_add_PK_and_Index_to_sqlite.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_clone.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_clone_2.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_comparison_sqlite_mysql.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_M1.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_M5.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_S5.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_S5_sub_1.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_move_database_mysql.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_optimize_mysql_M5_M5.py" />
+        <option value="$PROJECT_DIR$/../tradingOANDA/upsert.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M52.py" />
+        <option value="$PROJECT_DIR$/../tradingOANDA/utils.py" />
+        <option value="$PROJECT_DIR$/../tradingOANDA/tradingDB/utils.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_memory_test.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_create_table_with_metadata_for_each_timepoint_beginning.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_memory_test_2.py" />
+        <option value="$PROJECT_DIR$/../tradingOANDA/tradingDB/database.py" />
+        <option value="$PROJECT_DIR$/../config/config_M52.ini" />
+        <option value="$USER_HOME$/programme/Trading/oanda/async_v20/bin/check_api_methods.py" />
+        <option value="$PROJECT_DIR$/../scripts/m_test_async_v20.py" />
+        <option value="$PROJECT_DIR$/../scripts/load_create_copy_fill.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_optimize_mysql_M5_M5_2.py" />
+        <option value="$PROJECT_DIR$/../m_test_database_parallel.py" />
+        <option value="$PROJECT_DIR$/../scripts/createTraingingData.py" />
+        <option value="$PROJECT_DIR$/../../m_test_database_parallel.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="391" />
+    <option name="y" value="189" />
+    <option name="width" value="2118" />
+    <option name="height" value="1075" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/createDatabase2.py" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/config" />
+      <recent name="$USER_HOME$" />
+      <recent name="$USER_HOME$" />
+      <recent name="$PROJECT_DIR$/scripts" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../tradingOANDA/tradingDB" />
+      <recent name="$PROJECT_DIR$/../config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.createTraingingData">
+    <configuration name="check_api_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/programme/Trading/oanda/async_v20/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/programme/Trading/oanda/async_v20/bin/check_api_methods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="createDatabase2 M52" type="PythonConfigurationType" factoryName="Python">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/trading/bin/python3.6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/load_create_copy_fill.py" />
+      <option name="PARAMETERS" value="-c $PROJECT_DIR$/config/config_M52.ini" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="createTraingingData" type="PythonConfigurationType" factoryName="Python">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../createTraingingData.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_create_copy_fill (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../scripts/load_create_copy_fill.py" />
+      <option name="PARAMETERS" value="-c $PROJECT_DIR$/../config/config_M52.ini --fillAllTables" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="load_create_copy_fill" type="PythonConfigurationType" factoryName="Python">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../scripts/load_create_copy_fill.py" />
+      <option name="PARAMETERS" value="-c $PROJECT_DIR$/../config/config_M52.ini --createNewTables --copyBisTables --fillAllTables" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="m_test_async_v20 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../scripts/m_test_async_v20.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="m_test_database_optimize_mysql_M5_M5_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../m_test_database_optimize_mysql_M5_M5_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="m_test_database_parallel" type="PythonConfigurationType" factoryName="Python">
+      <module name="tradingOanda" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../m_test_database_parallel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.createDatabase2 M52" />
+      <item itemvalue="Python.load_create_copy_fill (1)" />
+      <item itemvalue="Python.load_create_copy_fill" />
+      <item itemvalue="Python.m_test_database_parallel" />
+      <item itemvalue="Python.createTraingingData" />
+      <item itemvalue="Python.check_api_methods" />
+      <item itemvalue="Python.m_test_async_v20 (1)" />
+      <item itemvalue="Python.m_test_database_optimize_mysql_M5_M5_2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.m_test_database_optimize_mysql_M5_M5_2" />
+        <item itemvalue="Python.m_test_async_v20 (1)" />
+        <item itemvalue="Python.check_api_methods" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8226797-bbf2-44ea-b0c8-5cb140978d06" name="Default Changelist" comment="" />
+      <created>1547949025939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547949025939</updated>
+      <workItem from="1547949027449" duration="48000" />
+      <workItem from="1547949091225" duration="39696000" />
+      <workItem from="1548022067116" duration="114199000" />
+      <workItem from="1548547087189" duration="138331000" />
+      <workItem from="1548977859438" duration="34876000" />
+      <workItem from="1549042612359" duration="36086000" />
+      <workItem from="1549111800512" duration="181000" />
+      <workItem from="1549111997682" duration="16351000" />
+      <workItem from="1549129793058" duration="54094000" />
+      <workItem from="1549217352638" duration="930000" />
+      <workItem from="1549218591881" duration="258000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="pytest_in_createDatabase_play_with_logging_py - 2019.02.01 at 00h 40m 16s.xml">
+      <configuration name="pytest in createDatabase_play_with_logging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_createDatabase_play_with_logging_py - 2019.02.01 at 00h 40m 34s.xml">
+      <configuration name="pytest in createDatabase_play_with_logging.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_async_v20_py - 2019.02.02 at 01h 51m 15s.xml">
+      <configuration name="pytest in test_async_v20.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_async_v20_py - 2019.02.02 at 01h 52m 11s.xml">
+      <configuration name="pytest in test_async_v20.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_async_v20_py - 2019.02.02 at 01h 52m 22s.xml">
+      <configuration name="pytest in test_async_v20.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_async_v20_py - 2019.02.02 at 01h 53m 04s.xml">
+      <configuration name="pytest in test_async_v20.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_async_v20_py - 2019.02.02 at 01h 53m 29s.xml">
+      <configuration name="pytest in test_async_v20.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="435050000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="391" y="189" width="2118" height="1075" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48381877" visible="true" weight="0.30646718" />
+      <window_info id="Structure" order="1" sideWeight="0.51618123" side_tool="true" visible="true" weight="0.30646718" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32893497" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4869691" weight="0.37811485" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49420848" weight="0.3943662" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32977587" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5130309" side_tool="true" weight="0.32893497" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49903476" weight="0.32893497" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4903475" weight="0.32827735" />
+      <window_info anchor="bottom" id="Inspection Results" order="13" weight="0.32987747" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.32987747" />
+      <window_info anchor="right" id="Key Promoter X" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.3291506" />
+      <window_info anchor="right" id="R Graphics" order="5" />
+      <window_info anchor="right" id="R Packages" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.3296332" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/sqlalchemy/engine/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="1920" selection-start-line="1920" selection-end-line="1920" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/sqlalchemy/event/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/sqlalchemy/event/attr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="254" selection-start-line="254" selection-end-line="254" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/sqlalchemy/engine/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="464" selection-start-line="464" selection-end-line="464" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/sqlalchemy/pool.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="1236" selection-start-line="1236" selection-end-line="1236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/sqlalchemy/sql/dml.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="524" selection-start-line="524" selection-end-line="524" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/tradingOANDA/database.py" />
+    <entry file="file://$USER_HOME$/createDatabase2.py" />
+    <entry file="file://$USER_HOME$/tradingOANDA/upsert.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="1369" selection-start-line="1369" selection-end-line="1369" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config/config_M1.ini" />
+    <entry file="file://$PROJECT_DIR$/../config/config_M5.ini" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/warnings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="402" selection-start-line="402" selection-end-line="402" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../config/config_S5.ini" />
+    <entry file="file://$PROJECT_DIR$/../tradingOANDA/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/../tradingOANDA/tradingDB/exceptions.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/bitmex_driver.py" />
+    <entry file="file://$PROJECT_DIR$/../db.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_memory_test_2.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M5.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_add_PK_and_Index_to_sqlite.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_clone.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_clone_2.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_comparison_sqlite_mysql.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_M1.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_M5.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_S5.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_copy_from_sqlite_mysql_S5_sub_1.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_move_database_mysql.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_create_table_with_metadata_for_each_timepoint_beginning.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/MySQLdb/connections.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="306" selection-start-line="306" selection-end-line="306" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tradingOANDA/upsert.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_update_original_marketdata_tables_to_contain_one_point_per_time_interval_M52.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_optimize_mysql_M5_M5.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="2670" selection-start-line="2670" selection-end-line="2670" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/trading/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="1477" selection-start-line="1477" selection-end-line="1477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../tradingOANDA/tradingDB/utils.py" />
+    <entry file="file://$PROJECT_DIR$/../tradingOANDA/utils.py" />
+    <entry file="file://$PROJECT_DIR$/../tradingOANDA/tradingDB/database.py" />
+    <entry file="file://$PROJECT_DIR$/../config/config_M52.ini" />
+    <entry file="file://$USER_HOME$/programme/Trading/oanda/async_v20/bin/check_api_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="15" selection-start-line="15" selection-end-line="181" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../scripts/m_test_async_v20.py" />
+    <entry file="file://$PROJECT_DIR$/../scripts/load_create_copy_fill.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_optimize_mysql_M5_M5_2.py" />
+    <entry file="file://$PROJECT_DIR$/../m_test_database_parallel.py" />
+    <entry file="file://$PROJECT_DIR$/../scripts/createDatabase.py" />
+    <entry file="file://$PROJECT_DIR$/../scripts/createTraingingData.py" />
+    <entry file="file://$PROJECT_DIR$/../../m_test_database_parallel.py" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
