@@ -7,6 +7,7 @@ from sqlalchemy.ext import automap
 from sqlalchemy.ext.declarative import as_declarative, declared_attr, declarative_base
 from sqlalchemy.ext.declarative.api import DeclarativeMeta
 from sqlalchemy.orm import Query, scoped_session, sessionmaker
+from sqlalchemy.orm.session import Session
 from sqlalchemy.engine.base import Engine
 from sqlalchemy.sql.schema import MetaData
 from timeit import default_timer as timer
@@ -167,7 +168,7 @@ class TradingDB(object):
         '__timeInterval',
         '_logger',
         '_loggerSqlalchemy',
-        'sessionmaker',
+        '__sessionmaker',
         'InstrumentNames',
         'df',
     ]
@@ -191,7 +192,7 @@ class TradingDB(object):
         self.__DBEngine = self.__createDBEngine(echo=echo)
         self.__DBDeclarativeBase = self.__createDBDeclarativeBase()
 
-        self.sessionmaker = self.__createSessionmaker()
+        self.__sessionmaker = self.__createSessionmaker()
         self.InstrumentNames = InstrumentNames
 
         # gets informations from the tables on disk; after that operation,
@@ -470,6 +471,10 @@ class TradingDB(object):
     @property
     def logger(self) -> logging.Logger:
         return self._logger
+
+    @property
+    def sessionmaker(self) -> sessionmaker:
+        return self.__sessionmaker
 
     def __repr__(self):
         retVal = f"<{__name__}.{self.__class__.__qualname__}(name={self.__DBName})>"

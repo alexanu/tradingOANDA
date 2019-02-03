@@ -341,10 +341,10 @@ def main(argv):
     time_interval = pd.Timedelta(minutes=5)
     strDB = 'trading_OANDA_M5'
     time_interval = pd.Timedelta(minutes=5)
-    # strDB = 'trading_OANDA_M1'
-    # time_interval = pd.Timedelta(minutes=1)
-    # strDB = 'trading_OANDA_S5'
-    # time_interval = pd.Timedelta(seconds=5)
+    strDB = 'trading_OANDA_M1'
+    time_interval = pd.Timedelta(minutes=1)
+    strDB = 'trading_OANDA_S5'
+    time_interval = pd.Timedelta(seconds=5)
     all_times_table_name = 'all_times'
 
     pd.set_option('display.width', 300)
