@@ -19,6 +19,8 @@ from tradingOANDA.tradingDB.database import MarketDataBaseORM, TradingDB
 # import operator
 import logging
 from tradingOANDA.tradingDB.database import literalquery as lq
+import multiprocessing as mp
+
 
 
 def copy_table(tradingDB: TradingDB, tn_from: str, tn_to: str):
@@ -62,6 +64,8 @@ def fill_table(tradingDB: trading_oanda_database.TradingDB,
     """fill all rows of a given table such that it contains one row per time_interval
     This function will not be used in the main program; we only need to fill rows in dataframes and upsert
     these afterwards"""
+
+    print(tn)
 
     min_time_table_valid_rows, max_time_table_valid_rows = tradingDB.get_min_max_time_single_instrument(tn,
                                                                                                         choose_only_rows_with_volume_gt_0=True)
@@ -222,10 +226,33 @@ def main(argv):
 
         min_time, max_time = tradingDB.get_min_max_time_multiple_instruments(tns=tables,
                                                                              choose_only_rows_with_volume_gt_0=True)
-        for tn in tables:
-            print(f"{tn}")
-            fill_table(tradingDB=tradingDB, tn=tn, min_time=min_time, max_time=max_time, chunksize=chunksize,
-                       upsert_method=upsert_method, n_rows_cutoff_for_memory=n_rows_cutoff_for_memory)
+        # # serial:
+        # t1 = timer()
+        # for tn in tables:
+        #     print(f"{tn}")
+        #     fill_table(tradingDB=tradingDB, tn=tn, min_time=min_time, max_time=max_time, chunksize=chunksize,
+        #                upsert_method=upsert_method, n_rows_cutoff_for_memory=n_rows_cutoff_for_memory)
+        # t2 = timer()
+        # print(f'serial: dt: {t2-t1}')
+
+
+        # parallel:
+
+        t1 = timer()
+        procs = []
+        for i,tn in enumerate(tables):
+            proc = mp.Process(target=fill_table, args=(tradingDB, tn, min_time, max_time, chunksize, upsert_method, n_rows_cutoff_for_memory, ))
+            procs.append(proc)
+            proc.start()
+
+        for proc in procs:
+            proc.join()
+
+        t2 = timer()
+        print(f'parallel: dt: {t2-t1}')
+
+
+
 
     # tables_bis = [t for t in tables if t.endswith("_bis")]
     # for tn in tables_bis:

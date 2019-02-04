@@ -339,12 +339,12 @@ def main(argv):
     print('in main')
     strDB = 'M52'
     time_interval = pd.Timedelta(minutes=5)
-    strDB = 'trading_OANDA_M5'
-    time_interval = pd.Timedelta(minutes=5)
-    strDB = 'trading_OANDA_M1'
-    time_interval = pd.Timedelta(minutes=1)
-    strDB = 'trading_OANDA_S5'
-    time_interval = pd.Timedelta(seconds=5)
+    # strDB = 'trading_OANDA_M5'
+    # time_interval = pd.Timedelta(minutes=5)
+    # strDB = 'trading_OANDA_M1'
+    # time_interval = pd.Timedelta(minutes=1)
+    # strDB = 'trading_OANDA_S5'
+    # time_interval = pd.Timedelta(seconds=5)
     all_times_table_name = 'all_times'
 
     pd.set_option('display.width', 300)
@@ -394,7 +394,7 @@ def main(argv):
     # instrument_names_here = ['BCO_USD']
 
     t1 = timer()
-    for tn in [t for t in instrument_names_here if t in Base.classes.keys()]:
+    for tn in [t for t in instrument_names_here if t in Base.classes.keys() and not t.endswith("_tmp")]:
         # print(tn)
 
 

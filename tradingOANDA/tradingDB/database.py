@@ -276,6 +276,8 @@ class TradingDB(object):
     def get_min_max_time_single_instrument(self, tn: str, choose_only_rows_with_volume_gt_0: bool = False):
         """get minimum/maximum time from a single instrument"""
 
+        self.engine.dispose()
+
         retVal = None
         to: MarketDataBaseORM = None
         try:
@@ -439,6 +441,8 @@ class TradingDB(object):
 
     def get_market_data_orm_table(self, tn: str) -> MarketDataBaseORM:
         """get a marketData orm table by name"""
+        self.engine.dispose()
+
         to: MarketDataBaseORM
         to = self.base.classes.get(tn)
 

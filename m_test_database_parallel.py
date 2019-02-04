@@ -191,6 +191,10 @@ def get_sample(tn,times, engine_passed = None):
 
     result = ddf
 
+    # dfdf = ddf.copy()
+    # dfdf = dfdf[dfdf['volume']==0]
+    # dfdfdf = dfdf.copy()
+    #
     # print(f"{tn}: {len(result)}")
 
     # return result
@@ -212,8 +216,8 @@ def main(argv):
     strDB = 'trading_OANDA_M1'
     # time_interval = pd.Timedelta(minutes=1)
     # # # strDB = 'trading_OANDA_S5_sub_1'
-    # strDB = 'trading_OANDA_S5'
-    # time_interval = pd.Timedelta(seconds=5)
+    strDB = 'trading_OANDA_S5'
+    time_interval = pd.Timedelta(seconds=5)
 
 
     pd.set_option('display.width', 300)
@@ -240,7 +244,7 @@ def main(argv):
 
     N_doubler = 20
 
-    N_samples = 500
+    N_samples = 700
 
     N_passes = 50
 
